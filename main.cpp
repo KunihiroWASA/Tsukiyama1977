@@ -22,6 +22,7 @@ class MIS {
 
 int main(int argc, char const* argv[])
 {
+    // Adjacent lists must be sorted. 
     Graph g = {
         {1, {}},
         {2, {3, 4}},
